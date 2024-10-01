@@ -1,0 +1,106 @@
+seguros hogar
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asesor de Seguros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ccc;
+        }
+        .logo {
+            display: flex;
+            gap: 10px;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .contact-info {
+            font-size: 14px;
+            text-align: left;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar, .images {
+            flex: 1;
+            margin: 0 10px;
+            background-color: #ddd;
+            height: 300px; /* Ajustar según el contenido real */
+        }
+        .content {
+            flex: 2;
+            background-color: #d1e7fd;
+            padding: 20px;
+        }
+        .content h2 {
+            margin: 0 0 10px;
+        }
+        .contact {
+            padding: 10px 20px;
+            background-color: #fff;
+            border-top: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="contact-info">
+            <strong>Andres A Simon</strong><br>
+            Asesor de Seguros
+        </div>
+        <div class="logo">
+            <img src="san-cristobal-logo.png" alt="Logo San Cristóbal">
+            <img src="federacion-logo.png" alt="Logo Federación">
+            <img src="patronal-logo.png" alt="Logo La Patronal">
+            <img src="rivadavia-logo.png" alt="Logo Rivadavia">
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Imagen lateral izquierda -->
+        <div class="sidebar">
+            <!-- Imagen o contenido adicional -->
+        </div>
+
+        <!-- Sección principal de seguros -->
+        <div class="content">
+            <h2>Seguros de hogar</h2>
+            <ul>
+                <li><a href="#">Seguros de hogar</a></li>
+                <li><a href="#">Seguros de bienes</a></li>
+            </ul>
+        </div>
+
+        <!-- Imagen lateral derecha -->
+        <div class="images">
+            <!-- Imagen o contenido adicional -->
+        </div>
+    </main>
+
+    <!-- Pie de página con información de contacto -->
+    <footer class="contact">
+        Contacto: <a href="mailto:contacto@correo.com">@</a>
+    </footer>
+
+</body>
+</html>
