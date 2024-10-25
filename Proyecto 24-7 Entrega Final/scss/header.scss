@@ -1,0 +1,108 @@
+.header{
+    padding: 0em ;
+     width: 100%;
+     margin: 0em;
+     .menu{
+         background-color: transparent;
+         position: absolute;
+         z-index: 10;
+         height: 4em;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         font-size: 1.4em;
+        margin-left: 0em;
+        margin-right: 0em;
+        width: 100%;
+        border-bottom: 2px solid #fff;
+       
+        .titulo__a{
+            color: rgb(187, 184, 184);
+            text-decoration-line: none;
+            & h1{
+                font-weight: 1000;
+            }
+            &:hover{
+                color:#fff;
+                
+            }
+         }
+         
+         
+     
+         .registra_campana{
+             display: flex;
+             align-items: center;
+             padding-left: 5em;
+         
+         
+         .registra_tu_empresa{
+             display: flex;
+            align-items: center;
+             margin: 0.5em;
+            border:solid 1px #fff;
+             border-radius: 1em;
+             padding: 0.30em;
+             
+            .fa-home{
+                margin-right: 0.3em;
+                color: #fff;
+            }
+            .a_tu_empresa{
+             text-decoration: none;
+             color:#fff;
+             .h3_tu_empresa{
+                 font-size: 0.7em;
+             }
+ 
+            }
+            &:hover{
+                background-color: rgba(47, 79, 79, 0.74);
+                color: black;
+ 
+            }
+         }
+     }
+        .redes{
+            display: flex;
+            margin-right: 0em;
+            padding-right: 0em;
+            margin: 0.2em;
+           
+            
+        .redes_iconos{
+            padding: 0.4em;
+            .bi{
+                color:#fff;
+                &:hover{
+                    color: lightblue;
+                }
+         }
+         }
+         }
+     }
+     
+     .search-bar{
+         position: absolute;
+         z-index: 1;
+         top: 8em;
+         bottom: 8em;
+         width: 100%;
+         right: 5em;
+         left: 5em;
+         margin: 0 auto;
+        @media only screen and (min-width: 320px) and (max-width: 480px){
+            display: none;
+        } 
+        @media only screen and (max-width: 768px){
+            width: 70%;
+            margin: 0 auto;
+        }
+        @media only screen and (max-width: 900px){
+            display: block;
+             width: 80%;
+            margin: 0 auto;
+        }
+     }
+ }
+ 
